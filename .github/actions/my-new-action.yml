@@ -1,0 +1,14 @@
+name: my-new-action
+on:
+  push: 
+
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - runs: echo "hello world!"
+steps:
+  - name: Run the Cake script
+    uses: cake-build/cake-action@v2
+      
